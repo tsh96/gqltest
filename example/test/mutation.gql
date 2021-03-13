@@ -1,0 +1,6 @@
+mutation{
+  createTodo(input:{text:"!23", userId:"!23"}){
+    text
+    done
+  }
+}
